@@ -51,9 +51,16 @@ const COL = {
 // ─── FUNCTIONS TO RUN ──────────────────────────────────────────────────────
 
 /**
+ * TEST: Select this from the dropdown and click Run.
+ * Runs diagnosis on row 4 (your first lead).
+ */
+function runTestRow() {
+  _processRow(_getSheet(), 4);
+}
+
+/**
  * Run diagnosis on a single row.
  * Change the number to whichever row you want to process.
- * Example: runDiagnosisForRow(4)
  */
 function runDiagnosisForRow(rowNumber) {
   _processRow(_getSheet(), rowNumber);
