@@ -219,7 +219,7 @@ function _buildPrompt(d) {
 
 function _getSheet() {
   const ss    = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = ss.getSheetByName(SHEET_NAME) || ss.getSheets()[0];
-  if (!sheet) throw new Error("Sheet not found. Check SHEET_NAME at the top of this script.");
+  const sheet = ss.getSheetByName(SHEET_NAME);
+  if (!sheet) throw new Error('Sheet "' + SHEET_NAME + '" not found. Check SHEET_NAME at the top of this script.');
   return sheet;
 }
