@@ -15,8 +15,8 @@
 
 // ─── CONFIGURATION ─────────────────────────────────────────────────────────
 
-// The tab name at the bottom of your Google Sheet — update if needed
-const SHEET_NAME = "Sheet1";
+// The tab name at the bottom of your Google Sheet
+const SHEET_NAME = "LinkedIn Audit Pipeline";
 
 const CLAUDE_MODEL = "claude-opus-4-6";
 const HEADER_ROW   = 3;  // Row 3 has column labels
