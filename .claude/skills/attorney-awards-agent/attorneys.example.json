@@ -1,0 +1,16 @@
+{
+  "firm": "Example Law Firm, LLP",
+  "jurisdictions": ["FL"],
+  "website": "https://example-law.com",
+  "attorneys": [
+    {
+      "name": "Jane Doe",
+      "title": "Founding Partner",
+      "practiceAreas": ["Personal Injury", "Medical Malpractice"],
+      "barAdmissions": [
+        { "state": "FL", "year": 2012 }
+      ],
+      "bio": "Existing bio text, notable verdicts/settlements, honors, speaking engagements, etc. Only include facts you can verify — this is the source material drafts are built from, nothing is invented beyond it."
+    }
+  ]
+}
